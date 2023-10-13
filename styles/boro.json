@@ -1,0 +1,125 @@
+{
+	"version": 2,
+    "title": "BORO",
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"custom": false,
+			"defaultPalette": false,
+			"palette": [
+				{
+					"slug": "gunmetal",
+					"color": "hsla(185, 21%, 12%, 1)",
+					"name": "Gunmetal"
+				},
+                {
+                    "slug": "french-gray",
+                    "color": "hsla(213, 20%, 80%, 1)",
+                    "name": "French Gray"
+                },
+				{
+					"slug": "true-blue",
+					"color": "hsla(217, 60%, 47%, 1)",
+					"name": "True Blue"
+				},
+				{
+					"slug": "baby-powder",
+					"color": "hsla(96, 71%, 99%, 1)",
+					"name": "Baby Powder"
+				}
+			]
+		},
+		"custom": {
+			"color": {
+				"base": "var(--wp--preset--color--gunmetal)",
+				"contrast": "var(--wp--preset--color--french-gray)",
+				"accent": "var(--wp--preset--color--true-blue)"
+			},
+			"default-font": "var(--wp--preset--font-family--nunito)"
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "Raleway",
+					"name": "Raleway",
+					"slug": "raleway",
+					"fontFace": [
+						{
+							"fontFamily": "Raleway",
+							"fontWeight": "100 900",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Raleway/Raleway-VariableFont_wght.ttf" ]
+						},
+						{
+							"fontFamily": "Raleway",
+							"fontWeight": "100 900",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf" ]
+						}
+					]
+				},
+				{
+					"fontFamily": "Rokkitt",
+					"name": "Rokkitt",
+					"slug": "rokkitt",
+					"fontFace": [
+						{
+							"fontFamily": "Rokkitt",
+							"fontWeight": "100 900",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Rokkitt/Rokkitt-VariableFont_wght.ttf" ]
+						},
+						{
+							"fontFamily": "Rokkitt",
+							"fontWeight": "100 900",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Rokkitt/Rokkitt-Italic-VariableFont_wght.ttf" ]
+						}
+					]
+				}
+			],
+			"fontSizes":[
+				{
+					"slug": "tiny",
+					"size": "0.625rem",
+					"name": "Tiny (10px)"
+				},
+				{
+					"slug": "small",
+					"size": "0.8125rem",
+					"name": "Small (13px)"
+				},
+				{
+					"slug": "normal",
+					"size": "1rem",
+					"name": "Normal (16px)"
+				},
+				{
+					"slug": "heading-4",
+					"size": "1.25rem",
+					"name": "Heading 4 (20px)"
+				},
+				{
+					"slug": "heading-3",
+					"size": "1.5rem",
+					"name": "Heading 3 (24px)"
+				},
+				{
+					"slug": "heading-2",
+					"size": "2rem",
+					"name": "Heading 2 (32px)"
+				},
+				{
+					"slug": "heading-1",
+					"size": "2.5rem",
+					"name": "Heading 1 (40px)"
+				}
+				
+			]
+		}
+	}
+}
