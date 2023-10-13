@@ -1,0 +1,173 @@
+{
+	"version": 2,
+    "title": "Malibu",
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"slug": "wave",
+					"color": "#364045",
+					"name": "Wave"
+				},
+				{
+					"slug": "linen",
+					"color": "#F2EEEC",
+					"name": "Linen"
+				},
+				{
+					"slug": "sky",
+					"color": "#DEE3E5",
+					"name": "Sky"
+				},
+				{
+					"slug": "cabin",
+					"color": "#655F58",
+					"name": "Cabin"
+				},
+				{
+					"slug": "stark",
+					"color": "#FCFCFC",
+					"name": "Stark"
+				},
+				{
+					"slug": "sand",
+					"color": "#C4B7A7",
+					"name": "Sand"
+				},
+				{
+					"slug": "white",
+					"color": "#fff",
+					"name": "White"
+				}
+			]
+		},
+		"custom": {
+			"color": {
+				"base": "var(--wp--preset--color--wave)",
+				"contrast": "var(--wp--preset--color--linen)",
+				"accent": "var(--wp--preset--color--sand)"
+			},
+			"default-font": "var(--wp--preset--font-family--lato)"
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "\"Lato\", sans-serif",
+					"name": "Lato",
+					"slug": "lato",
+					"fontFace": [
+						{
+							"fontFamily": "Lato",
+							"fontWeight": "100",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Lato/Lato-Thin.ttf" ]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontWeight": "100",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Lato/Lato-ThinItalic.ttf" ]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Lato/Lato-Light.ttf" ]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontWeight": "300",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Lato/Lato-LightItalic.ttf" ]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Lato/Lato-Regular.ttf" ]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Lato/Lato-Italic.ttf" ]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Lato/Lato-Bold.ttf" ]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontWeight": "700",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Lato/Lato-BoldItalic.ttf" ]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Lato/Lato-Black.ttf" ]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontWeight": "900",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Lato/Lato-BlackItalic.ttf" ]
+						}
+					]
+				}
+			],
+			"fontSizes":[
+				{
+					"slug": "tiny",
+					"size": "0.5625rem",
+					"name": "Tiny (9px)"
+				},
+				{
+					"slug": "smaller",
+					"size": "0.875rem",
+					"name": "Smaller (14px)"
+				},
+				{
+					"slug": "base",
+					"size": "1rem",
+					"name": "Base Size (16px)"
+				},
+				{
+					"slug": "bigger",
+					"size": "1.25rem",
+					"name": "Bigger (20px)"
+				},
+				{
+					"slug": "heading-3",
+					"size": "1.3125rem",
+					"name": "H3 (21px)"
+				},
+				{
+					"slug": "heading-2",
+					"size": "2.25rem",
+					"name": "H2 (36px)"
+				},
+				{
+					"slug": "heading-1",
+					"size": "3.625rem",
+					"name": "H1 (58px)"
+				}
+				
+			]
+		}
+	}
+}

@@ -1,0 +1,189 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "title": "Spero",
+	"settings": {
+        "appearanceTools": true,
+        "color": {
+            "palette": [
+                {
+                     "slug": "white",
+                     "color": "#fff",
+                     "name": "white"
+                },
+                {
+                     "slug": "light-text",
+                     "color": "#f7f7f7",
+                     "name": "Light Text"
+                },
+                {
+                     "slug": "light-gray",
+                     "color": "#bebebe",
+                     "name": "Light Gray"
+                },
+                {
+                     "slug": "dark-gray",
+                     "color": "#7e7d7d",
+                     "name": "Dark Gray"
+                },
+                {
+                     "slug": "dark-text",
+                     "color": "#505050",
+                     "name": "dark-text"
+                },
+                {
+                     "slug": "black",
+                     "color": "#231f20",
+                     "name": "Black"
+                },
+                {
+                    "slug": "msc-light",
+                    "color": "#F7F7F7",
+                    "name": "MSC Light"
+                },
+                {
+                    "slug": "msc-cream",
+                    "color": "#F1F7F4",
+                    "name": "MSC Cream"
+                },
+                {
+                    "slug": "msc-medium",
+                    "color": "#EDEBE7",
+                    "name": "MSC Medium"
+                },
+                {
+                    "slug": "msc-tan",
+                    "color": "#DACCBF",
+                    "name": "MSC Tan"
+                },
+                {
+                    "slug": "msc-gold",
+                    "color": "#AFA04F",
+                    "name": "MSC Gold"
+                },
+                {
+                    "slug": "msc-l-blue",
+                    "color": "#798C90",
+                    "name": "MSC Light Blue"
+                },
+                {
+                    "slug": "msc-blue",
+                    "color": "#004A5E",
+                    "name": "MSC Blue"
+                },
+                {
+                    "slug": "msc-navy",
+                    "color": "#252F38",
+                    "name": "MSC Navy"
+                },
+                {
+                    "slug": "msc-dark",
+                    "color": "#505050",
+                    "name": "MSC Dark"
+                }
+            ]
+		},
+		"custom": {
+			"color": {
+				"base": "var(--wp--preset--color--msc-blue)",
+				"contrast": "var(--wp--preset--color--light-text)",
+				"accent": "var(--wp--preset--color--msc-gold)"
+			},
+			"default-font": "var(--wp--preset--font-family--work-sans)"
+		},
+        "typography": {
+            "fontFamilies": [
+				{
+					"fontFamily": "\"Abhaya Libre\", serif",
+					"name": "Abhaya Libre",
+					"slug": "abhaya-libre",
+					"fontFace": [
+						{
+							"fontFamily": "Abhaya Libre",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/spero/AbhayaLibre-Regular.woff2" ]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Open Sans\", sans-serif",
+					"name": "Open Sans",
+					"slug": "open-sans",
+					"fontFace": [
+						{
+							"fontFamily": "Open Sans",
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/spero/OpenSans-VariableFont_wdth,wght.woff2" ]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontWeight": "600",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/spero/OpenSans-Italic-VariableFont_wdth,wght.woff2" ]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Work Sans\", sans-serif",
+					"name": "Work Sans",
+					"slug": "work-sans",
+					"fontFace": [
+                        {
+							"fontFamily": "Work Sans",
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/spero/WorkSans-Light.woff2" ]
+						},
+						{
+							"fontFamily": "Work Sans",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/spero/WorkSans-Regular.woff2" ]
+						},
+						{
+							"fontFamily": "Work Sans",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/spero/WorkSans-Medium.woff2" ]
+						}
+					]
+				}
+			],
+            "fontSizes": [
+                {
+                    "slug": "small",
+                    "size": "1rem",
+                    "name": "Small "
+                },
+                {
+                    "slug": "default",
+                    "size": "1.125rem",
+                    "name": "Default "
+                },
+                {
+                    "slug": "medium",
+                    "size": "1.25rem",
+                    "name": "Medium "
+                },
+                {
+                    "slug": "large",
+                    "size": "1.5rem",
+                    "name": "Large "
+                },
+                {
+                    "slug": "extra-large",
+                    "size": "2.5rem",
+                    "name": "Extra Large "
+                }
+            ]
+        }
+	}
+}

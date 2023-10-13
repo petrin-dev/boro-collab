@@ -1,0 +1,28 @@
+ul.category-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2rem;
+    list-style-type: none;
+    gap: 2rem;
+}
+.category-list .category-filter {
+  border: 0;
+  text-align: left;
+  cursor: pointer;
+}
+.category-list .category-filter::before {
+  content: '○';
+  margin-right: 0.25rem;
+  display: inline-block;
+}
+.category-list .active::before,
+.category-list .toggled::before {
+  content: '●';
+}
+.post article img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}

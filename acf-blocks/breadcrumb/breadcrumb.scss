@@ -1,0 +1,39 @@
+.breadcrumb-wrap {
+    position: relative;
+    // max-height: 0;
+}
+
+.breadcrumb-link {
+    width: fit-content;
+    // position: absolute;
+    // top: -4rem;
+    // z-index: 1;
+    a {
+        color: inherit;
+        text-transform: uppercase;
+        text-decoration: none;
+        vertical-align: middle;
+    }
+}
+
+.breadcrumb-link.is-style-chevron {
+    &:before {
+        content: '<';
+        padding-right: 0.25em;
+        transition: padding-right 0.25s linear;
+    }
+    &:hover:before {
+        padding-right: 0.5em
+    }
+}
+
+.breadcrumb-link.is-style-arrow {
+    &:before {
+        content: '←';
+        padding-right: 0.25em;
+        transition: padding-right 0.25s linear;
+    }
+    &:hover:before {
+        padding-right: 0.5em
+    }
+}

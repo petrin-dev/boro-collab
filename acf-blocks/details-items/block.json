@@ -1,0 +1,21 @@
+{
+    "name": "acf/details-items",
+    "title": "Details Items",
+    "description": "Similar to FAQ just without filters",
+    "style": [ "file:./details-items.css" ],
+    "script": "details-items",
+    "category": "formatting",
+    "icon": "sos",
+    "keywords": ["layout"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "details-items.php"
+    },
+    "supports": {
+        "align": true,
+        "anchor": true,
+        "color": {
+            "text": true
+        }
+    }
+}

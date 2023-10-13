@@ -1,0 +1,23 @@
+{
+    "name": "acf/search-results",
+    "title": "Search Results",
+    "description": "How is this not already a default Gutenberg block??",
+    "style": [ "file:./search-results.css" ],
+    "category": "formatting",
+    "icon": "search",
+    "keywords": ["layout"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "search-results.php"
+    },
+    "supports": {
+        "align": false,
+        "anchor": false,
+        "alignContent": false,
+        "color": {
+            "text": true,
+            "background": true,
+            "link": true
+        }
+    }
+}

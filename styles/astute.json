@@ -1,0 +1,218 @@
+{
+	"version": 2,
+	"title": "astute",
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"custom": true,
+			"palette": [
+				{
+					"slug": "linen",
+					"color": "#F8F7F5",
+					"name": "Linen"
+				},
+				{
+					"slug": "carbon",
+					"color": "#231F20",
+					"name": "Carbon"
+				},
+				{
+					"slug": "paper",
+					"color": "#eae7e4",
+					"name": "Paper"
+				},
+				{
+					"slug": "olive",
+					"color": "#ab8105",
+					"name": "Olive"
+				},
+				{
+					"slug": "french-grey",
+					"color": "#d2ced0",
+					"name": "French Grey"
+				},
+				{
+					"slug": "tangerine",
+					"color": "#f68a53",
+					"name": "Tangerine"
+				},
+				{
+					"slug": "lavender",
+					"color": "#be9aa8",
+					"name": "Lavender"
+				},
+				{
+					"slug": "overcast",
+					"color": "#9DA3AD",
+					"name": "Overcast"
+				}
+			]
+		},
+		"custom": {
+			"color": {
+				"base": "var(--wp--preset--color--linen)",
+				"contrast": "var(--wp--preset--color--carbon)",
+				"accent": "var(--wp--preset--color--olive)"
+			},
+			"default-font": "var(--wp--preset--font-family--lexend-exa)"
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "\"Lexend Exa\", sans-serif",
+					"name": "Lexend Exa",
+					"slug": "lexend-exa",
+					"fontFace": [
+						{
+							"fontFamily": "Lexend Exa",
+							"fontWeight": "200",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Lexend_Exa/static/LexendExa-Light.ttf" ]
+						},
+						{
+							"fontFamily": "Lexend Exa",
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Lexend_Exa/static/LexendExa-Regular.ttf" ]
+						},
+						{
+							"fontFamily": "Lexend Exa",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Lexend_Exa/static/LexendExa-Regular.ttf" ]
+						},
+						{
+							"fontFamily": "Lexend Exa",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Lexend_Exa/static/LexendExa-Medium.ttf" ]
+						},
+						{
+							"fontFamily": "Lexend Exa",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Lexend_Exa/static/LexendExa-Bold.ttf" ]
+						}
+					]
+				},
+
+				{
+					"fontFamily": "\"Roboto\", sans-serif",
+					"name": "Roboto",
+					"slug": "roboto",
+					"fontFace": [
+						{
+							"fontFamily": "Roboto",
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Roboto/Roboto-Light.ttf" ]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Roboto/Roboto-Regular.ttf" ]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Roboto/Roboto-Italic.ttf" ]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Roboto/Roboto-Medium.ttf" ]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Roboto/Roboto-Bold.ttf" ]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Roboto Mono\", monospace",
+					"name": "Roboto Mono",
+					"slug": "roboto-mono",
+					"fontFace": [
+						{
+							"fontFamily": "Roboto Mono",
+							"fontWeight": "300 700",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf" ]
+						},
+						{
+							"fontFamily": "Roboto Mono",
+							"fontWeight": "300 700",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Roboto_Mono/RobotoMono-Italic-VariableFont_wght.ttf" ]
+						}
+					]
+				}
+			],
+			"fontSizes":[
+				{
+					"slug": "tiny",
+					"size": "0.625rem",
+					"name": "Tiny (10px)"
+				},
+				{
+					"slug": "label",
+					"size": "0.875rem",
+					"name": "Label (14px)"
+				},
+				{
+					"slug": "small",
+					"size": "1rem",
+					"name": "Small (16px)"
+				},
+				{
+					"slug": "featured-label",
+					"size": "1.125rem",
+					"name": "Featured Label (18px)"
+				},
+				{
+					"slug": "blog-title",
+					"size": "2rem",
+					"name": "Blog Title (32px)"
+				},
+				{
+					"slug": "heading-4",
+					"size": "1.0625rem",
+					"name": "Heading 4 (17px)"
+				},
+				{
+					"slug": "heading-3",
+					"size": "1.875rem",
+					"name": "Heading 3 (30px)"
+				},
+				{
+					"slug": "heading-2",
+					"size": "3.75rem",
+					"name": "Heading 2 (60px)"
+				},
+				{
+					"slug": "heading-1",
+					"size": "5rem",
+					"name": "Heading 1 (80px)"
+				}
+				
+			]
+		}
+	}
+}

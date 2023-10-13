@@ -1,0 +1,41 @@
+article {
+  margin-bottom: 2rem; 
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  a {
+    color: inherit;
+    text-decoration-color: transparent;
+    border: 0;
+  }
+}
+
+.more-posts {
+  display: flex;
+  justify-content: center;
+  margin-block-start: 0 !important;
+  button#load-more {
+      width: 270px;
+      height: 48px;
+      display: block;
+      text-align: center;
+      text-transform: uppercase;
+      line-height: 1;
+      letter-spacing: 5px;
+      color: var(--wp--custom--color--base);
+      background: transparent;
+      cursor: pointer;
+      transition: all 0.3s;
+      padding: 0.5rem;
+      font-size: 20px;
+      border: 1px solid var(--wp--custom--color--base);
+      &:hover {
+          color: var(--wp--custom--color--contrast);
+          background: var(--wp--custom--color--base);
+      }
+  }
+  span#no-more-posts {
+      font-size: 20px;
+  }
+}

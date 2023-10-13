@@ -1,0 +1,21 @@
+{
+    "name": "acf/flex-divider",
+    "title": "Flex Divider",
+    "description": "Veritcal on desktop, horizontal on mobile",
+    "style": [ "file:./flex-divider.css" ],
+    "category": "layout",
+    "icon": "smiley",
+    "keywords": ["layout"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "flex-divider.php"
+    },
+    "supports": {
+        "align": false,
+        "anchor": false,
+        "alignContent": false,
+        "color": {
+            "text": true
+        }
+    }
+}

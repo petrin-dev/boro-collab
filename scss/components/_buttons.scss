@@ -1,0 +1,111 @@
+.wp-block-button {
+    transition: 0.3s;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+}
+
+.wp-block-button.is-style-fill:hover {
+    border: 2px solid;
+}
+
+.wp-block-button.is-style-outline a:hover {
+    background: var(--wp--custom--color--contrast) !important;
+}
+
+.is-style-hover-light a, 
+.is-style-hover-dark a,
+.wp-block-button.is-style-play-button-hl a,
+.wp-block-button.is-style-play-button-hd a {
+    border: 2px solid;
+    transition: 0.3s;
+} 
+
+.is-style-hover-light.is-style-hover-light:hover a,
+.is-style-play-button-hl.is-style-play-button-hl a:hover
+ {
+    background: var(--wp--custom--color--base);
+    color: var(--wp--custom--color--contrast);
+    border-color: currentColor;
+}
+
+.is-style-hover-dark.is-style-hover-dark:hover a,
+.is-style-play-button-hd.is-style-play-button-hd a:hover {
+    background: var(--wp--custom--color--contrast);
+    color: var(--wp--custom--color--base);
+}
+
+.is-style-plus-button {
+    a {
+        background-color: transparent !important;
+        color: var(--wp--custom--color--base) !important;
+    }
+    position: relative;
+    a {
+        width: fit-content;
+        padding-left: 0;
+        padding-right: 0;
+        &:after {
+            content: '+' / '';
+            speak: none;
+            font-size: inherit;
+            margin-left: 4.8px;
+        }
+    }
+    &:before {
+        content: '';
+        width: 0;
+        height: 2px;
+        background: currentColor;
+        position: absolute;
+        bottom: 0;
+        transition: width 0.3s;
+    }
+    &:hover {
+        &:before {
+            width: 100%;
+        }
+    }
+}
+
+.wp-block-button.is-style-play-button-hl {
+    a {
+        position: relative;
+        &:after {
+            content: '';
+            background-image: url('/wp-content/themes/pds-blocks/assets/play-icon.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            font-size: 100%;
+            display: inline-block;
+            margin-left: 0.5rem;
+            width: 20px;
+            height: 18px;
+            transition: filter 0.3s;
+            filter: invert(100%) sepia(5%) saturate(379%) hue-rotate(248deg) brightness(114%) contrast(100%);
+            &:hover:after {
+                filter: invert(21%) sepia(14%) saturate(597%) hue-rotate(155deg) brightness(91%) contrast(84%);
+            }
+        }
+    }
+}
+.wp-block-button.is-style-play-button-hd {
+    a {
+        position: relative;
+        &:after {
+            content: '';
+            background-image: url('/wp-content/themes/pds-blocks/assets/play-icon.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            font-size: 100%;
+            display: inline-block;
+            margin-left: 0.5rem;
+            width: 20px;
+            height: 18px;
+            transition: filter 0.3s;
+            filter: invert(21%) sepia(14%) saturate(597%) hue-rotate(155deg) brightness(91%) contrast(84%);
+        }
+        &:hover:after {
+            filter: invert(100%) sepia(5%) saturate(379%) hue-rotate(248deg) brightness(114%) contrast(100%);
+        }
+    }
+}

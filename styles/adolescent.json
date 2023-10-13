@@ -1,0 +1,141 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "title": "Adolescent",
+	"settings": {
+        "color": {
+            "palette": [
+                {
+                     "slug": "white",
+                     "color": "#fff",
+                     "name": "white"
+                },
+                {
+                     "slug": "dark-gray",
+                     "color": "#7e7d7d",
+                     "name": "Dark Gray"
+                },
+                {
+                     "slug": "black",
+                     "color": "#231f20",
+                     "name": "Black"
+                },
+                {
+                     "slug": "mac-globals",
+                     "color": "#464140",
+                     "name": "MAC Globals"
+                },
+                {
+                     "slug": "light-text",
+                     "color": "#f7f7f7",
+                     "name": "Light Text"
+                },
+                {
+                     "slug": "light-gray",
+                     "color": "#bebebe",
+                     "name": "Light Gray"
+                },
+                {
+                     "slug": "dark-text",
+                     "color": "#505050",
+                     "name": "dark-text"
+                },
+                {
+                     "slug": "mac-l-gray",
+                     "color": "#F5F2F0",
+                     "name": "MAC Light Gray"
+                },
+                {
+                     "slug": "mac-dark",
+                     "color": "#2B2B2B",
+                     "name": "MAC Dark"
+                },
+                {
+                     "slug": "mac-g-olive",
+                     "color": "#6D724F",
+                     "name": "MAC Green Olive"
+                },
+                {
+                     "slug": "mac-clay",
+                     "color": "#9D5F31",
+                     "name": "MAC Clay"
+                },
+                {
+                     "slug": "mac-b-olive",
+                     "color": "#453339",
+                     "name": "MAC Black Olive"
+                },
+                {
+                     "slug": "mac-d-gray",
+                     "color": "#BEBEBE",
+                     "name": "MAC Dark Gray"
+                },
+                {
+                     "slug": "mac-l-teal",
+                     "color": "#A5B9B7",
+                     "name": "MAC Light Teal"
+                },
+                {
+                     "slug": "mac-d-teal",
+                     "color": "#8B9A98",
+                     "name": "MAC Dark Teal"
+                }
+            ]
+		},
+		"custom": {
+			"color": {
+				"base": "var(--wp--preset--color--dark-text)",
+				"contrast": "var(--wp--preset--color--white)",
+				"accent": "var(--wp--preset--color--mac-clay)"
+			},
+			"default-font": "var(--wp--preset--font-family--dm-sans)"
+		},
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "\"Montserrat\", sans-serif",
+                    "slug": "montserrat-sans-serif",
+                    "name": "Montserrat"
+                },
+                {
+                    "fontFamily": "\"Open Sans\", sans-serif",
+                    "slug": "open-sans-sans-serif",
+                    "name": "Open Sans"
+                }
+            ],    
+            "fontSizes": [
+                {
+                    "slug": "small",
+                    "size": "1rem",
+                    "name": "Small "
+                },
+                {
+                    "slug": "default",
+                    "size": "1.125rem",
+                    "name": "Default "
+                },
+                {
+                    "slug": "medium",
+                    "size": "1.25rem",
+                    "name": "Medium "
+                },
+                {
+                    "slug": "large",
+                    "size": "1.5rem",
+                    "name": "Large "
+                },
+                {
+                    "slug": "extra-large",
+                    "size": "2.5rem",
+                    "name": "Extra Large "
+                }
+            ],
+            "lineHeight": true
+        }
+	},
+    "styles": {
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--open-sans-sans-serif)"
+        }
+    }
+}

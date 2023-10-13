@@ -1,0 +1,12 @@
+.flex-divider {
+    min-height: 345px;
+    width: 2px;
+    margin: 0 auto;
+    color: inherit;
+    background: currentColor;
+    @media (max-width: 991px) {
+        min-height: unset;
+        height: 2px;
+        min-width: 100%;
+    }
+}

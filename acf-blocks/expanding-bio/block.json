@@ -1,0 +1,16 @@
+{
+    "name": "acf/expanding-bio",
+    "title": "Expanding Bio",
+    "description": "Four lines for free, but more will cost ya",
+    "style": [ "file:./expanding-bio.css" ],
+    "script": "expanding-bio",
+    "category": "layout",
+    "icon": "admin-users",
+    "keywords": ["layout"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "expanding-bio.php"
+    },
+    "supports": {
+    }
+}

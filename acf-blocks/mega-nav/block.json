@@ -1,0 +1,23 @@
+{
+    "name": "acf/mega-nav",
+    "title": "Mega Nav",
+    "description": "It's kind of a big deal.",
+    "style": [ "file:./mega-nav.css" ],
+    "category": "layout",
+    "icon": "thumbs-up",
+    "keywords": ["layout"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "mega-nav.php"
+    },
+    "supports": {
+        "align": false,
+        "anchor": false,
+        "alignContent": false,
+        "color": {
+            "text": true,
+            "background": true,
+            "link": true
+        }
+    }
+}

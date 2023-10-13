@@ -1,0 +1,20 @@
+{
+    "name": "acf/breadcrumb",
+    "title": "Breadcrumb",
+    "description": "Breadcrumb to a Specific Page.",
+    "style": [ "file:./breadcrumb.css" ],
+    "category": "formatting",
+    "icon": "editor-break",
+    "keywords": ["breadcrumb", "navigation"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "breadcrumb.php"
+    },
+    "supports": {
+        "align": false,
+        "anchor": false,
+        "color": {
+            "text": true
+        }
+    }
+}

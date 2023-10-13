@@ -1,0 +1,99 @@
+{
+	"version": 2,
+	"title": "",
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"custom": true,
+			"palette": [
+				{
+					"slug": "",
+					"color": "#",
+					"name": ""
+				},
+			]
+		},
+		"custom": {
+			"color": {
+				"base": "var(--wp--preset--color--SLUG)",
+				"contrast": "var(--wp--preset--color--SLUG)",
+				"accent": "var(--wp--preset--color--SLUG)"
+			},
+			"default-font": "var(--wp--preset--font-family--SLUG)"
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "\"Lexend Exa\", sans-serif",
+					"name": "Lexend Exa",
+					"slug": "lexend-exa",
+					"fontFace": [
+						{
+							"fontFamily": "Lexend Exa",
+							"fontWeight": "200",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Lexend_Exa/static/LexendExa-Light.ttf" ]
+						},
+						{
+							"fontFamily": "Lexend Exa",
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Lexend_Exa/static/LexendExa-Regular.ttf" ]
+						},
+						{
+							"fontFamily": "Lexend Exa",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Lexend_Exa/static/LexendExa-Regular.ttf" ]
+						},
+						{
+							"fontFamily": "Lexend Exa",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Lexend_Exa/static/LexendExa-Medium.ttf" ]
+						},
+						{
+							"fontFamily": "Lexend Exa",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Lexend_Exa/static/LexendExa-Bold.ttf" ]
+						}
+					],
+				},
+				{
+					"fontFamily": "Nunito",
+					"name": "Nunito",
+					"slug": "nunito",
+					"fontFace": [
+						{
+							"fontFamily": "Nunito",
+							"fontWeight": "100 900",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Nunito/Nunito-VariableFont_wght.ttf" ]
+						},
+						{
+							"fontFamily": "Nunito",
+							"fontWeight": "100 900",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Nunito/Nunito-Italic-VariableFont_wght.ttf" ]
+						}
+					]
+				}
+			],
+			"fontSizes":[
+				{
+					"slug": "",
+					"size": "",
+					"name": ""
+				},
+			]
+		}
+	}
+}

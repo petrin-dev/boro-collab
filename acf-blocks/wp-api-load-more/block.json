@@ -1,0 +1,24 @@
+{
+    "name": "acf/wp-api-load-more",
+    "title": "WordPress API Post List",
+    "description": "Pulls X number of posts per page, with Load More support",
+    "style": [ "file:./wp-api-load-more.css" ],
+    "script": "wp-api-load-more",
+    "category": "layout",
+    "icon": "welcome-write-blog",
+    "keywords": ["layout"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "wp-api-load-more.php"
+    },
+    "supports": {
+        "align": false,
+        "anchor": false,
+        "alignContent": false,
+        "color": {
+            "text": true,
+            "background": true,
+            "link": true
+        }
+    }
+}

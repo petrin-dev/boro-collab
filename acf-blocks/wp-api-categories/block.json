@@ -1,0 +1,40 @@
+{
+    "name": "acf/wp-api-categories",
+    "title": "WordPress API Category Filter",
+    "description": "Only works in tandem with Post List block.",
+    "style": [ "file:./wp-api-categories.css" ],
+    "category": "layout",
+    "icon": "welcome-write-blog",
+    "keywords": ["layout"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "wp-api-categories.php"
+    },
+    "supports": {
+        "align": false,
+        "anchor": false,
+        "alignContent": false,
+        "color": {
+            "text": true,
+            "background": true,
+            "link": true
+        },
+        "alignText": false,
+        "fullHeight": false,
+        "spacing": {
+            "margin": true,
+            "padding": true,
+            "blockGap": true
+        },
+        "typography": {
+            "fontSize": true,
+            "lineHeight": true,
+            "__experimentalFontFamily": true,
+            "__experimentalFontStyle": true,
+            "__experimentalFontWeight": true,
+            "__experimentalLetterSpacing": true,
+            "__experimentalTextDecoration": true,
+            "__experimentalTextTransform": true
+        }
+    }
+}

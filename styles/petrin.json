@@ -1,0 +1,154 @@
+{
+	"version": 2,
+    "title": "petrin.dev",
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"custom": false,
+			"defaultPalette": false,
+			"palette": [
+				{
+					"slug": "carbon",
+					"color": "#113537",
+					"name": "Carbon"
+				},
+                {
+                    "slug": "blue",
+                    "color": "#258bb0",
+                    "name": "Blue"
+                },
+				{
+					"slug": "linen",
+					"color": "#FFF6EB",
+					"name": "Linen"
+				},
+				{
+					"slug": "brick",
+					"color": "#f16664",
+					"name": "Brick"
+				}
+			]
+		},
+		"custom": {
+			"color": {
+				"base": "var(--wp--preset--color--carbon)",
+				"contrast": "var(--wp--preset--color--linen)",
+				"accent": "var(--wp--preset--color--blue)"
+			},
+			"default-font": "var(--wp--preset--font-family--nunito)"
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "Poppins",
+					"name": "Poppins",
+					"slug": "poppins",
+					"fontFace": [
+						{
+							"fontFamily": "Poppins",
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Poppins/Poppins-Light.ttf" ]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontWeight": "300",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Poppins/Poppins-LightItalic.ttf" ]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Poppins/Poppins-SemiBold.ttf" ]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontWeight": "600",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Poppins/Poppins-SemiBoldItalic.ttf" ]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Poppins/Poppins-Black.ttf" ]
+						}
+						,
+						{
+							"fontFamily": "Poppins",
+							"fontWeight": "900",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Poppins/Poppins-BlackItalic.ttf" ]
+						}
+					]
+				},
+				{
+					"fontFamily": "Nunito",
+					"name": "Nunito",
+					"slug": "nunito",
+					"fontFace": [
+						{
+							"fontFamily": "Nunito",
+							"fontWeight": "100 900",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Nunito/Nunito-VariableFont_wght.ttf" ]
+						},
+						{
+							"fontFamily": "Nunito",
+							"fontWeight": "100 900",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Nunito/Nunito-Italic-VariableFont_wght.ttf" ]
+						}
+					]
+				}
+			],
+			"fontSizes":[
+				{
+					"slug": "tiny",
+					"size": "0.625rem",
+					"name": "Tiny (10px)"
+				},
+				{
+					"slug": "small",
+					"size": "0.8125rem",
+					"name": "Small (13px)"
+				},
+				{
+					"slug": "normal",
+					"size": "1rem",
+					"name": "Normal (16px)"
+				},
+				{
+					"slug": "heading-4",
+					"size": "1.25rem",
+					"name": "Heading 4 (20px)"
+				},
+				{
+					"slug": "heading-3",
+					"size": "1.5rem",
+					"name": "Heading 3 (24px)"
+				},
+				{
+					"slug": "heading-2",
+					"size": "2rem",
+					"name": "Heading 2 (32px)"
+				},
+				{
+					"slug": "heading-1",
+					"size": "2.5rem",
+					"name": "Heading 1 (40px)"
+				}
+				
+			]
+		}
+	}
+}

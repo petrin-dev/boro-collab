@@ -1,0 +1,36 @@
+{
+  "name": "block-theme",
+  "version": "1.0.0",
+  "description": "FSE Theme w/ Sass and Editor Style/Scripts",
+  "scripts": {
+    "watch": "sass -w ./scss/main.scss ./theme.css",
+    "prefix": "postcss ./theme.css --use=autoprefixer cssnano --dir ./",
+    "autobundle": "watchify js/bundler.js -o js/main.js",
+    "blocks": "sass --watch acf-blocks:acf-blocks --no-source-map --style compressed",
+    "dev": "conc \"npm run watch\" \"npm run prefix\" \"npm run autobundle\" \"npm run blocks\""
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "last 1 ie version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "browserify": "^17.0.0",
+    "concurrently": "^8.0.1",
+    "cssnano": "^5.1.14",
+    "nodemon": "^3.0.1",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "sass": "^1.59.2",
+    "watchify": "^4.0.0"
+  }
+}

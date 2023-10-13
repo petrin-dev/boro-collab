@@ -1,0 +1,14 @@
+{
+    "name": "acf/responsive-spacer",
+    "title": "Responsive Spacer",
+    "description": "One size for desktop, another for mobile!",
+    "category": "layout",
+    "icon": "align-wide",
+    "keywords": ["layout"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "responsive-spacer.php"
+    },
+    "supports": {
+    }
+}

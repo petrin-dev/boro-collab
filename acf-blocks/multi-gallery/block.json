@@ -1,0 +1,24 @@
+{
+    "name": "acf/multi-gallery",
+    "title": "Multi Gallery",
+    "description": "Support for multi-category galleries",
+    "style": [ "file:./multi-gallery.css" ],
+    "script": "multi-gallery",
+    "category": "formatting",
+    "icon": "images-alt",
+    "keywords": ["layout"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "multi-gallery.php"
+    },
+    "supports": {
+        "align": false,
+        "anchor": false,
+        "alignContent": false,
+        "color": {
+            "text": true,
+            "background": true,
+            "link": true
+        }
+    }
+}

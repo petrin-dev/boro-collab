@@ -1,0 +1,21 @@
+{
+    "name": "acf/faq-items",
+    "title": "FAQ Items",
+    "description": "Finch Albatross Quail",
+    "style": [ "file:./faq-items.css" ],
+    "script": "faq-items",
+    "category": "layout",
+    "icon": "sos",
+    "keywords": ["layout"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "faq-items.php"
+    },
+    "supports": {
+        "align": false,
+        "anchor": true,
+        "color": {
+            "text": true
+        }
+    }
+}

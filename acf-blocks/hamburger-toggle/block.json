@@ -1,0 +1,22 @@
+{
+    "name": "acf/hamburger",
+    "title": "Hamburger Toggle",
+    "description": "Ich bin hungrig.",
+    "style": [ "file:./hamburger-toggle.css" ],
+    "category": "formatting",
+    "icon": "food",
+    "keywords": ["navigation"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "hamburger-toggle.php"
+    },
+    "supports": {
+        "align": false,
+        "anchor": false,
+        "alignContent": false,
+        "color": {
+            "text": true,
+            "background": true
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.video-modal {
+    border: 0;
+    outline: var(--wp--preset--color--wave);
+    padding: 0;
+    background: transparent;
+    overflow: visible;
+    &::backdrop {
+        background: rgba(101,95,88,0.8);
+        // animation: add-bg 0.3s linear forwards;
+    }
+    iframe {
+        aspect-ratio: 32 / 17;
+        display: block;
+        margin: 0;
+        max-width: 95vw;
+        max-height: 70vh;
+        min-width: 60vw;
+        user-select: none;
+    }
+    &:before {
+        content: '✕';
+        position: absolute;
+        top: -2rem;
+        right: 0;
+        color: var(--wp--preset--color--linen);
+        cursor: pointer;
+    }
+}

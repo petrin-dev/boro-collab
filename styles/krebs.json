@@ -1,0 +1,121 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "title": "KSG",
+	"settings": {
+        "appearanceTools": true,
+        "color": {
+            "palette": [
+                {
+                    "slug": "whisper",
+                    "color": "#F3F3F9",
+                    "name": "Whisper"
+                },
+                {
+                    "slug": "charcoal",
+                    "color": "#303E49",
+                    "name": "Charcoal"
+                },
+                {
+                    "slug": "shadow-blue",
+                    "color": "#6F8DA5",
+                    "name": "Shadow Blue"
+                },
+                {
+                    "slug": "cg-red",
+                    "color": "#D93833",
+                    "name": "CG Red"
+                },
+                {
+                     "slug": "white",
+                     "color": "#fff",
+                     "name": "White"
+                },
+                {
+                    "slug": "cultured",
+                     "color": "#f8f8f8",
+                     "name": "Cultured"
+                },
+                {
+                    "slug": "periwinkle",
+                    "color": "#C3CCEB",
+                    "name": "Periwinkle"
+               },
+                {
+                     "slug": "black-coral",
+                     "color": "#4F6170",
+                     "name": "Black Coral"
+                }
+            ]
+		},
+		"custom": {
+			"color": {
+				"base": "var(--wp--preset--color--whisper)",
+				"contrast": "var(--wp--preset--color--charcoal)",
+				"accent": "var(--wp--preset--color--cg-red)"
+			},
+			"default-font": "var(--wp--preset--font-family--montserrat-sans-serif)"
+		},
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "\"Montserrat\", sans-serif",
+                    "slug": "montserrat-sans-serif",
+                    "name": "Montserrat"
+                },
+                                {
+                    "fontFamily": "\"Work Sans\", sans-serif",
+                    "slug": "work-sans-sans-serif",
+                    "name": "Work Sams"
+                }
+            ],    
+            "fontSizes": [
+                {
+                    "slug": "9",
+                    "size": "0.9375rem",
+                    "name": "9px "
+                },
+                {
+                    "slug": "12",
+                    "size": "0.75rem",
+                    "name": "12px "
+                },
+                {
+                    "slug": "14",
+                    "size": "0.875rem",
+                    "name": "14px "
+                },
+                {
+                    "slug": "15",
+                    "size": "0.9375rem",
+                    "name": "15px "
+                },
+                {
+                    "slug": "26",
+                    "size": "1.625rem",
+                    "name": "26px "
+                },
+                {
+                    "slug": "36",
+                    "size": "2.25rem",
+                    "name": "36px "
+                },
+                {
+                    "slug": "40",
+                    "size": "2.5rem",
+                    "name": "40px "
+                },
+                {
+                    "slug": "80",
+                    "size": "5rem",
+                    "name": "80px "
+                },
+                {
+                    "slug": "200",
+                    "size": "12.5rem",
+                    "name": "200px "
+                }
+            ]
+        }
+	}
+}

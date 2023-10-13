@@ -1,0 +1,174 @@
+// Fades
+@keyframes fade-in-left {
+    0% {
+      opacity: 0;
+      transform: translateX(-4rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+.has-animation.has-been-revealed .fade-in-left {
+  animation-name: fade-in-left;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+  
+  @keyframes fade-in-right {
+    0% {
+      opacity: 0;
+      transform: translateX(4rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .has-animation.has-been-revealed .fade-in-right {
+    animation-name: fade-in-right;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes fade-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(4rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .has-animation.has-been-revealed .fade-in-up {
+    animation-name: fade-in-up;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+  }
+
+  @keyframes services-fade-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fade-in-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-4rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .has-animation.has-been-revealed .fade-in-down {
+    animation-name: fade-in-down;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+  }
+
+.has-animation.has-been-revealed .reveal-in {
+  animation: reveal 3s cubic-bezier(0.77, 0, 0.175, 1);
+  animation-fill-mode: both;
+}
+  
+@keyframes reveal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    }
+}
+
+  // Image Scrolling Effect
+  @keyframes zoom {
+    from {
+      transform: scale(1.1);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  .has-image-animation.has-been-revealed {
+    overflow: hidden;
+    figure {
+      margin-bottom: 0;
+    }
+    img {
+        animation: zoom 1.5s ease-in-out;
+        animation-fill-mode: both;
+        margin-bottom: 0;
+    }
+  }
+
+  .delayed-image-animation img {
+    animation-duration: 3s !important;
+    animation-fill-mode: both;
+  }
+
+// Horizontal Line Draw In
+@keyframes draw-in-line {
+    from {
+        width: 1%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+// Horizontal Line Draw In
+@keyframes draw-in-line-80 {
+  from {
+      width: 80%;
+  }
+  to {
+      width: 100%;
+  }
+}
+
+.has-animation.has-been-revealed .animated-line {
+    animation: draw-in-line 1s ease-in-out;
+    animation-fill-mode: both;
+}
+
+.has-animation.has-been-revealed .animated-line-80 {
+  animation: draw-in-line-80 1s ease-in-out;
+  animation-fill-mode: both;
+}
+
+// Button Gradient
+@keyframes button-gradient {
+    0% {
+        background: linear-gradient(to left, red 50%, blue 50%) right;
+        background-size: 200% 100%;
+    }
+    100% {
+      background: blue;
+    }
+  }
+
+/* ANIMATION UTILITIES */
+.animation-delay-500ms {
+    animation-delay: 500ms;
+}
+
+.animation-delay-1s {
+  animation-delay: 1s;
+}
+
+.animation-delay-1p5s {
+  animation-delay: 1.5s;
+}
