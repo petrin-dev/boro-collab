@@ -1,0 +1,16 @@
+{
+    "name": "acf/member-profile",
+    "title": "Expanding Bio",
+    "description": "Four lines for free, but more will cost ya",
+    "style": [ "file:./member-profile.css" ],
+    "script": "member-profile",
+    "category": "layout",
+    "icon": "admin-users",
+    "keywords": ["layout"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "member-profile.php"
+    },
+    "supports": {
+    }
+}
