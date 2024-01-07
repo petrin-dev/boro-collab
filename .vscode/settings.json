@@ -1,0 +1,9 @@
+{
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#c2cbd6",
+        "titleBar.inactiveBackground": "#c2cbd6cc",
+        "titleBar.activeForeground": "#182425",
+        "titleBar.inactiveForeground": "#182425cc"
+    },
+    "window.title": "BORO Collaborative"
+}
